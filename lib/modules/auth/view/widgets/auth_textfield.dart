@@ -45,9 +45,11 @@ class AuthTextField extends StatelessWidget {
             child: TextField(
               focusNode: focusNode,
               cursorHeight: 18.h,
-              textAlignVertical: TextAlignVertical.center,
               controller: controller,
               obscureText: obSecure ?? false,
+              style: AppTextStyles.subtitle(
+                fontSize: 11,
+              ),
               decoration: InputDecoration(
                 isDense: true,
                 hintText: hint,
@@ -56,7 +58,7 @@ class AuthTextField extends StatelessWidget {
                 ),
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(
-                  top: 2.h,
+                  top: 6.h,
                   left: 13.w,
                   right: 13.w,
                 ),

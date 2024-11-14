@@ -39,7 +39,7 @@ class _AuthSuccessState extends State<AuthSuccess> {
             decoration: const BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                  'assets/images/bg_image_2.png',
+                  'assets/images/bg_image.png',
                 ),
                 fit: BoxFit.cover,
               ),

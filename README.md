@@ -4,13 +4,24 @@ Developer assessment task.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone the git to your remote setup.
+Make sure to run this command in the terminal "flutter pub get"
+Then run on a physical device.
 
-A few resources to get you started if this is your first Flutter project:
+## Assets Overview
+Inside assets, we have dummy assets like user images.
+Fonts, Icons, and Images
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Lib Folder
+Inside main.dart, I have set up screenutils which draws the flutter widget according to the screen size and pixel density. This is helpful to create an app that looks the same on all devices.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Then we have two directories
+  > Core and Modules.
+
+Core contains utils like app_colors, text_sytles etc...
+Modules contains the folders of each module.
+  >  Each module have a View Folder inside which contains the screens and widgets.
+
+
+## Not many libraries have been added, so you don't need to do any platform-specific configurations.
+
